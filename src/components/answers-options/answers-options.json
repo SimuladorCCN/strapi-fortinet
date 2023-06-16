@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_answers_options_answers_options",
+  "info": {
+    "displayName": "answersOptions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "respuesta": {
+      "type": "text",
+      "required": true
+    },
+    "isCorrect": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "preguntas",
+  "info": {
+    "singularName": "pregunta",
+    "pluralName": "preguntas",
+    "displayName": "pregunta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pregunta": {
+      "type": "text",
+      "required": true
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "respuestaOpcion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answers-options.answers-options",
+      "required": true
+    },
+    "opcionMultiple": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
